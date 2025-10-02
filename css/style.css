@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.hero{
+    filter: opacity(0.4);
+}
+.infocard{
+    border: 3px solid white;
+    border-radius: 20px;
+
+}
+
+.image{
+    text-align: center;
+    filter: invert(0.2);
+}
+
+.select{
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.infoext{
+    border: 4px solid red;
+    border-radius: 10px;
+   
+}
+
+.zoom :hover{
+   transform: scale(1.1);
+   transition: 2s;
+   overflow: hidden;
+}   
+
+
+.list :hover{
+    background-color:red;
+
+}
